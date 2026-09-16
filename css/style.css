@@ -1,0 +1,156 @@
+
+:root {
+    --bg-color: #161616;      
+    --text-color: #FFFFFF;     
+    --accent-color: #FF7EB3;   
+    --header-bg: #F5F5F5;      
+    --header-text: #0D0D0D;
+    --fat-font:'BBH Hegarty', cursive;
+    --thin-font:'Dancing Script', cursive;    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+
+header {
+    background-color: var(--header-bg);
+    color: var(--header-text);
+    padding: 15px 40px;
+    border-radius: 30px;
+
+    margin-left: 180px;  
+    position: relative;   
+}
+
+nav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: var(--fat-font);
+
+    position: absolute;   
+    left: -110px;         
+    top: 25%;    
+    color: var(--text-color);  
+    white-space: nowrap; 
+    
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.nav-links a {
+    
+    text-decoration: none;
+    color: var(--header-text);
+    font-size: 16px;
+    font-weight: 500;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+    
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+    color:#ff006a;
+    text-shadow: 0 0 2px #ff006a;
+    
+}
+
+
+.commission {
+    background-color: var(--accent-color);
+    color: #FFFFFF !important;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+#main {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#main h1 {
+    font-size: 140px;
+    font-weight: 900;
+    font-family: var(--fat-font);
+    letter-spacing: 5px;
+    text-transform: uppercase; 
+    margin-top:-315px;
+}
+
+.tagline {
+    font-size: 75px;
+     font-family: var(--thin-font);
+    color: var(--accent-color);
+    margin-top: -65px; 
+}
+
+
+#about {
+    padding: 80px 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #bbbbbb; 
+}
+
+
+#gallery {
+    padding: 80px 40px;
+}
+
+
+footer {
+    background-color: #1A1A1A;
+    padding: 40px;
+    text-align: center;
+}
+
+.socials {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.socials a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 18px;
+}
