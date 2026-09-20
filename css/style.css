@@ -8,6 +8,7 @@
     --fat-font:'Permanent Marker', cursive;
     --thin-font:'Shadows Into Light', cursive;
     --normal-font:'DM Sans', sans-serif;
+    --normal-font-weight: 550;
 }
 
 
@@ -70,7 +71,7 @@ nav {
 
 .nav-links a {
     margin-top:1px;
-    font-weight: 550;
+    font-weight: var(--normal-font-weight);
     
     text-decoration: none;
     color: var(--header-text);
@@ -121,7 +122,7 @@ nav {
 
 #main h1 {
     cursor:default;
-    font-size: 150.5px;
+    font-size: 200px;
     font-weight: 900;
     font-family: var(--fat-font);
     letter-spacing: 5px;
@@ -131,10 +132,10 @@ nav {
 
 .tagline {
     cursor:default;
-    font-size: 90px;
+    font-size: 110px;
     font-family: var(--thin-font);
     color: var(--accent-color);
-    margin-top: -60px; 
+    margin-top: -95px; 
 }
 
 
@@ -142,7 +143,10 @@ nav {
     padding: 80px 40px;
     max-width: 800px;
     margin: 0 auto;
+    margin-top: -320px;    
+    margin-right: 28px;
 }
+
 
 #about h2 {
     cursor:default;
@@ -156,6 +160,7 @@ nav {
     line-height: 1.6;
     color: #bbbbbb; 
 }
+
 
 
 #gallery {
@@ -191,3 +196,4 @@ footer {
     color:#ffffff;
     text-shadow: 0 0 3px #ffffff;
 }
+
