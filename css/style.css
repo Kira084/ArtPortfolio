@@ -75,7 +75,7 @@ nav {
     
     text-decoration: none;
     color: var(--header-text);
-    font-size: 16.2px;
+    font-size: 14px;
     
     transition: text-shadow 0.2s ease, color 0.2s ease, transform 0.2s ease;
     
@@ -122,12 +122,12 @@ nav {
 
 #main h1 {
     cursor:default;
-    font-size: 200px;
+    font-size: 150px;
     font-weight: 900;
     font-family: var(--fat-font);
     letter-spacing: 5px;
     text-transform: uppercase; 
-    margin-top:-315px;
+    margin-top:-270px;
 }
 
 .tagline {
@@ -140,7 +140,7 @@ nav {
 
 
 #about {
-    padding: 80px 40px;
+    padding: 50px 40px;
     max-width: 800px;
     margin: 0 auto;
     margin-top: -320px;    
@@ -150,13 +150,13 @@ nav {
 
 #about h2 {
     cursor:default;
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 1a0px;
 }
 
 #about p {
     cursor:default;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.6;
     color: #bbbbbb; 
 }
