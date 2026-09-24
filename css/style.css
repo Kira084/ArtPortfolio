@@ -36,13 +36,10 @@ header {
 }
 
 nav {
-    flex-wrap: wrap;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin-left: 0;
-  
-    
+    margin-left: 20px;
 }
 
 .logo {
@@ -62,13 +59,10 @@ nav {
 
 
 .nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
     display: flex;
-    gap: 14px;
+    gap: 30px;
     cursor: pointer;
-    font-family:var( --normal-font);
-  
+    font-family: var(--normal-font);
 }
 
 .nav-links a {
@@ -219,5 +213,35 @@ footer {
         margin-left: 0;
         padding: 12px 16px;
         border-radius: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+        gap: 10px;
+    }
+
+    .logo {
+        position: static;
+        width: 100%;
+        text-align: center;
+        color: var(--bg-color);
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .commission {
+        margin-left: 0;
+    }
+
+    #about {
+        align-self: stretch;
+        margin: 0;
+        padding: 20px;
     }
 }
